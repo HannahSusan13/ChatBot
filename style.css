@@ -8,11 +8,16 @@ body {
 }
 
 .chat-container {
-  width: 350px;
+  width: 360px;
   background-color: white;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #007acc;
 }
 
 #chat-box {
@@ -21,12 +26,17 @@ body {
   border: 1px solid #ccc;
   padding: 10px;
   margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.input-area {
+  display: flex;
+  gap: 5px;
 }
 
 input {
-  width: 70%;
+  flex: 1;
   padding: 8px;
-  margin-right: 5px;
 }
 
 button {
@@ -34,9 +44,14 @@ button {
   background-color: #007acc;
   color: white;
   border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
+.clear-btn {
+  background-color: #ff4d4d;
+}
+
 button:hover {
-  background-color: #005fa3;
+  opacity: 0.9;
 }
